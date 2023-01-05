@@ -11,6 +11,7 @@
     width: 100%;
     background-image: url(./assets/background.png);
     background-position: center;
+    background-size: cover;
     background-color: #191919;
 }
 
@@ -28,7 +29,7 @@ nav {
 
 .portifolio {
     color: #ffffff;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 700;
 }
 
@@ -39,7 +40,7 @@ li {
     color: #ffffff;
     list-style: none;
     display: inline-block;
-    font-size: 28px;
+    font-size: 22px;
     margin-right: 28px;
     cursor: pointer;
 }
@@ -84,18 +85,18 @@ section {
 }
 
 section img {
-    height: 400px;
+    height: 360px;
     border-radius: 100%;
     border: 2px solid #f9d400;
     margin-right: 50px;
 }
 section div h2 {
     color: #ffffff;
-    font-size: 96px;
+    font-size: 75px;
 }
 section div p {
     color: #feffbb;
-    font-size: 30px;
+    font-size: 22px;
     max-width: 900px;
     margin-top: 20px;
     margin-bottom: 40px;
@@ -107,7 +108,7 @@ section div button {
     color: #191919;
     background: #f9d004;
     height: 90px;
-    width: 200px;
+    width: 300px;
     font-size: 26px;
     font-weight: 700;
     border-radius: 20px;
@@ -144,14 +145,14 @@ section div button a:hover{
 }
 .projetos h2 {
     color: #ffffff;
-    font-size: 75px;
+    font-size: 70px;
     text-align: center;
     padding: 22px;
 }
 
 .card {
     background-color: #000000;
-    height: 365px;
+    height: 400px;
     width: 335px;
     border-radius: 20px;
     padding: 20px 35px;
