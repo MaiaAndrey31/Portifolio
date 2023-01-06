@@ -72,11 +72,38 @@ h1 span {
     color: #f9d400;
 }
 
-.meu-nome h3 {
+.animacao-principal{
+    
     color: #ffffff;
     font-size: 27px;
     font-weight: 500;
+    opacity: 0;
+   
+   
+    
+ 
 }
+
+@keyframes slide {
+    from {
+        transform: translateX(-400px) scale(4);
+        opacity: 0;
+    }
+
+    to {
+        
+        opacity: 1;
+    }
+}
+
+.animacao-principal{
+    animation: slide 2.2s linear forwards ;
+    
+}
+
+
+
+
 
 section {
     display: flex;
