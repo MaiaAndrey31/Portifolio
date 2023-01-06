@@ -119,24 +119,20 @@ section div button {
     
 }
 
-section div button a {
+section div a {
     text-decoration: none;
     color: #191919;
     height: 90px;
     width: 200px;
 }
 
-section div button:hover {
+section div a button:hover {
     background-color: #000000;
     border: 3px solid #f9d004;
-
+    color: #ffffff;
     transition: 0.8s;
 }
 
-section div button a:hover{
-    color: #ffffff;
-    transition: 1s;
-}
 
 .projetos {
     background-color: #191919;
