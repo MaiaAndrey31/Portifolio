@@ -63,6 +63,7 @@ li {
 
 }
 h1 {
+    border-right: 2px solid #ffffff;
     color: #ffffff;
     font-size: 80px;
     font-weight: 700;
@@ -70,6 +71,30 @@ h1 {
 
 h1 span {
     color: #f9d400;
+}
+
+.animacao {
+    animation: blinkcursor 500ms steps(28) normal infinite, typing 2.8s steps(28) .3s normal both;
+    white-space: nowrap;
+    overflow: hidden;
+}
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 6.6em;
+    }
+}
+
+@keyframes blinkcursor{
+    from {
+        border-right: 2px solid #ffffff;
+    }
+    to {
+        border-right: transparent;
+
+    }
 }
 
 .animacao-principal{
