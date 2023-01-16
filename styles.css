@@ -135,7 +135,7 @@ section {
     display: flex;
     align-items: center;
     padding: 85px 15%;
-    background-image: linear-gradient(to bottom, #005169, #02000a);
+    background-image: linear-gradient(to bottom, #030D2A, #000000);
 }
 
 section img {
@@ -188,7 +188,7 @@ section div a button:hover {
 
 
 .projetos {
-    background-image: url(./assets/footer_stars.jpg);
+    background-image: url(./assets/stars.gif);
     background-size: cover;
     padding-top: 50px;
     padding-bottom: 100px;
@@ -249,8 +249,8 @@ section div a button:hover {
 }
 
 footer {
-   background-image: url(./assets/footer_stars.jpg);
-   background-size: cover;
+    background-image: url(./assets/UnhappyAptChimpanzee-max-1mb.gif);
+    background-size: cover;
     padding-top: 100px;
     padding-bottom: 120px;
     display: flex;
