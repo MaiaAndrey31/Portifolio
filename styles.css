@@ -135,7 +135,7 @@ section {
     display: flex;
     align-items: center;
     padding: 85px 15%;
-    background-color: black;
+    background-image: linear-gradient(to bottom, #030D2A, #000000);
 }
 
 section img {
