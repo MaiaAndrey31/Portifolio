@@ -10,10 +10,10 @@
 
     height: 100vh;
     width: 100%;
-    background-image: url(./assets/background.png);
-    background-position: center;
+    background-image: url(./assets/27-279179_imagens-para-pc-4k.jpg);
+    
     background-size: cover;
-    background-color: #191919;
+   
 }
 
 nav {
@@ -48,6 +48,7 @@ li {
 .menu {
     text-decoration: none;
     color: #ffffff;
+    
 }
 
 .menu:hover{
@@ -58,7 +59,7 @@ li {
 
 .meu-nome {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 7%;
 
 }
@@ -133,7 +134,7 @@ h1 span {
 section {
     display: flex;
     align-items: center;
-    padding: 60px 15%;
+    padding: 85px 15%;
     background-color: black;
 }
 
@@ -187,7 +188,8 @@ section div a button:hover {
 
 
 .projetos {
-    background-color: #191919;
+    background-image: url(./assets/stars.gif);
+    background-size: cover;
     padding-top: 50px;
     padding-bottom: 100px;
 
