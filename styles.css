@@ -203,7 +203,7 @@ section div a button:hover {
 
 .card {
     background-color: #000000;
-    box-shadow: 5px 5px 8px  #feffbb;
+    box-shadow: inset 5px 5px 8px  #feffbb;
     height: 400px;
     width: 335px;
     border-radius: 20px;
