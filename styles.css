@@ -135,9 +135,10 @@ section {
     display: flex;
     align-items: center;
     padding: 85px 15%;
-    background-image: linear-gradient(to bottom, #030D2A, #000000);
-}
+    background-image: url(./assets/wallpapersden.com_astronaut-skull-space-suit_2560x1080.jpg);
+    background-size: cover;
 
+}
 section img {
     height: 360px;
     border-radius: 100%;
@@ -150,8 +151,9 @@ section div h2 {
 }
 section div p {
     color: #feffbb;
+    
     font-size: 22px;
-    max-width: 900px;
+    width: 450px;
     margin-top: 20px;
     margin-bottom: 40px;
 
@@ -188,7 +190,7 @@ section div a button:hover {
 
 
 .projetos {
-    background-image: url(./assets/stars.gif);
+    background-image: url(./assets/vladimir-manyukhin-2.jpg);
     background-size: cover;
     padding-top: 50px;
     padding-bottom: 100px;
@@ -249,7 +251,7 @@ section div a button:hover {
 }
 
 footer {
-    background-image: url(./assets/UnhappyAptChimpanzee-max-1mb.gif);
+    background-image: url(./assets/91bbc8857d0625c195d6e9ed1da4191e.jpg);
     background-size: cover;
     padding-top: 100px;
     padding-bottom: 120px;
@@ -261,19 +263,19 @@ footer {
 }
 
 footer h5{
-    color: #ffffff;
+    color: #f9d400;
     font-size: 39px;
+    text-shadow:  8px 8px 10px  #000000;
 }
 footer p{
     color: #ffffff;
+    text-shadow:  8px 8px 10px  #000000;
     font-size: 20px;
     margin-bottom: 30px;
     margin-top: 14px;
 }
 
-footer span{
-    color: #f9d400;
-}
+
 
 .social{
     display: flex;
