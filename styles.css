@@ -206,8 +206,8 @@ section div a button:hover {
 .card {
     background-color: #000000;
     box-shadow: inset 5px 5px 8px  #feffbb;
-    height: 400px;
-    width: 335px;
+    height: 380px;
+    width: 290px;
     border-radius: 20px;
     padding: 20px 35px;
     text-align: center;
@@ -265,28 +265,34 @@ section div a button:hover {
     padding: 15px;
     
 }
+.totems{
+    display: flex;
+    justify-content: space-around;
+}
 
 .totem{
  
         background-color: #000000;
         box-shadow: inset 5px 5px 8px  #feffbb;
-        height: 350px;
-        width: 240px;
+        height: 310px;
+        width: 220px;
         border-radius: 20px;
-        padding: 30px 30px;
+        padding: 10px 10px;
         text-align: center;
         margin-bottom: 50px;
 }
 .totem h5{
     
     color: #f9d004;
-    font-size: 25px;
+    font-size: 22px;  
+    border-bottom: 2px solid #f9d004;
 }
 .totem p{
     color:  #ffffff;
     margin-top: 20px;
     margin-bottom: 40px;
-    font-size: 17px;
+    font-size: 18px;
+  
 }
 
 .contato {
