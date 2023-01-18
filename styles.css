@@ -144,7 +144,11 @@ section img {
     border-radius: 100%;
     border: 2px solid #f9d400;
     margin-right: 50px;
+   
+    
 }
+
+
 section div h2 {
     color: #ffffff;
     font-size: 75px;
@@ -187,6 +191,11 @@ section div a button:hover {
     color: #ffffff;
     transition: 0.8s;
 }
+
+
+
+    
+
 
 
 .projetos {
