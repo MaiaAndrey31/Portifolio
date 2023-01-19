@@ -221,6 +221,7 @@ section div a button:hover {
 }
 .cards {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 100px;
 }
@@ -433,6 +434,10 @@ footer p {
 @media (max-width: 750px) {
 body{
   overflow-x: hidden;
+  width: 100vw;
+}
+#home{
+  height: 100vh;
 }
   .menu-mobile {
     display: none;
@@ -517,7 +522,7 @@ body{
 
   .portifolio {
     color: #ffffff;
-    font-size: 22px;
+    font-size: 70px;
     font-weight: 700;
   }
 
@@ -526,120 +531,173 @@ body{
   }
 
   h1.animacao {
-    font-size: 45px;
+    font-size: 100px;
   }
   
-  #sobre{
-    height: 100vh;
+  section {
+    height: 90vh;
+    display: list-item;
+    justify-content: space-around;
     
   }
 
-  #sobre img{
+ #sobre img{
     
-    position: absolute;
-    height: 240px;
-    left: 80px;
-    top: 800px;
+    position: relative;
+    left: 180px;
+    height: 340px;
+    
    
   }
-  #sobre h2{
+  #sobre div h2{
     
-    font-size: 35px;
-    position: absolute;
+    font-size: 70px;
+    position: relative;
+    top: 20px;
     left:100px;
-   top: 760px;
-    color: #ffffff;
+     color: #ffffff;
     
   }
-  #sobre p{
-    position: absolute;
-    top: 1050px;
-    font-size: 20px;
+  #sobre div p{
+    position: relative;
+    top: 70px;
+    font-size: 38px;
     width: 80vw;
   }
-  #sobre button {
-    position: absolute;
-    top: 1400px;
+  section button {
+    position: relative;
+    top: 150px;
     left: 35px;
     height: 50px;
     font-size: 20px;
   }
 
   .projetos {
-    height: 170vh;
+    height: 90vh;
     background-size: cover;
     
   }
   .projetos h2{
-    position: absolute;
-    font-size: 30px;
+    position: relative;
+    font-size: 60px;
     left: 35px;
 
   }
 
-  .projetos .cards{
-    
-    position: absolute;
-    width: 20px;
-    height: 2px;
-    top: 1500px;
-    left: 160px;
-    display: grid;
-    
-    
+  .projetos .cards{    
+    position: relative;
+            
   }
-  .projetos .card{    
-    margin-top: 15px;
-    height: min-content;
-    
 
+  .projetos .card{
+    height: 450px;
+    margin-top: 50px;
   }
+ 
 
   .projetos .card img{
-    height: 50px;
-    width: 45px;
+    height: 100px;
+    width: 100px;
     
   }
   .projetos .card svg{
-    height: 50px;
-    width: 45px;
+    height: 100px;
+    width: 100px;
     
   }
   .projetos .card h5{
-    font-size: 15px;
+    font-size: 29px;
   }
   .projetos .card p{
-    font-size: 15px;
+    font-size: 20px;
   }
   .projetos .card button{
     height: 20px;
   }
 
   .knowledge{
-    height: 110vh;
+    height: 90vh;
   }
   .knowledge h2{
-    font-size: 30px;
+    font-size: 60px;
 
   }
   .knowledge .totem{
-    width: 100px;
-    height: 175px;
+    position: relative;
+    margin-top: 50px;
+    height: 350px;
     justify-content: space-around;
     
   }
   .knowledge .totem svg{
-    height: 30px;
-    width: 30px;
+    height: 70px;
+    width: 70px;
   }
   .knowledge .totem h5{
-    font-size: 15px;
+    font-size: 35px;
   }
   .knowledge .totem p{
-    font-size: 9.1px;
+    font-size: 18px;
+  }
+  .contato{
+    position: relative;
+    height: 90vh;
+
   }
 
-  
+  .contato h5{
+    font-size: 90px;
+  }
+  .contato p{
+    font-size: 35px;
+  }
+  .contato .social img{
+    height: 90px;
+  }
+  .contato .social a {
+    background-color: #f9d400;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .contato .form-group{
+    position: relative;
+  }
+  .contato form input{
+    width: 420px;
+  height: 38px;
+  padding: 20px;
+  margin-top: 30px;
+  background: #0f0c0cf5;
+  border: 1px solid #0f0c0cf5;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 1px;
+  }
+ .contato form textarea{
+   height: 260px;
+  width: 420px;
+  padding: 50px;
+  background: #0f0c0cf5;
+  border: 1px solid #0f0c0cf5;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 2px;
+  }
+
+  .top-button{
+    display: none;
+
+  }
+
+   
 
 
 

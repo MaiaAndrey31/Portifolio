@@ -17,7 +17,6 @@ ScrollReveal({
   duration: 2500
 }).reveal(`
 .portifolio,
-.menu,
 #sobre img,
 #sobre h2,
 #sobre p,
