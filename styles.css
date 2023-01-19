@@ -430,7 +430,7 @@ footer p {
   background-color: #ffeb84;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 750px) {
 body{
   overflow-x: hidden;
 }
