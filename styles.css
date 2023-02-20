@@ -170,7 +170,11 @@ section div a button:hover {
 }
 
 .projetos {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
   background-image: url(./assets/vladimir-manyukhin-2.jpg);
+  background-size: cover;
 
   padding-top: 50px;
   padding-bottom: 100px;
@@ -190,6 +194,7 @@ section div a button:hover {
   border-radius: 20px;
   padding: 20px 35px;
   text-align: center;
+  margin-top: 25px;
 }
 
 .card img {
@@ -223,7 +228,7 @@ section div a button:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .knowledge {
