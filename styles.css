@@ -5,7 +5,7 @@
   scroll-behavior: smooth;
   font-family: "Josefin Sans", sans-serif;
 }
-nav .menu-fake{
+nav .menu-fake {
   opacity: 0;
 }
 
@@ -170,19 +170,17 @@ section div a button:hover {
 }
 
 .projetos {
-  height: 100%;
-  display: flex;
-  flex-wrap: wrap;
+  
   background-image: url(./assets/vladimir-manyukhin-2.jpg);
   background-size: cover;
-
+  height: 100%;  
   padding-top: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
 }
 .projetos h2 {
   color: #ffffff;
   font-size: 70px;
-  text-align: center;
+  text-align: justify;
   padding: 22px;
 }
 
@@ -194,7 +192,7 @@ section div a button:hover {
   border-radius: 20px;
   padding: 20px 35px;
   text-align: center;
-  margin-top: 25px;
+  margin-top: 35px;
 }
 
 .card img {
@@ -234,7 +232,7 @@ section div a button:hover {
 .knowledge {
   background-image: url(./assets/vadim-sadovski-dex-copy.jpg);
   background-size: cover;
-  padding-top: 30px;
+
   padding-bottom: 30px;
 }
 .knowledge h2 {
@@ -362,7 +360,7 @@ section div a button:hover {
   padding: 0;
   margin: -1px;
   overflow: hidden;
-  clip: rect(0.0.0);
+  clip: rect(0.0);
   white-space: nowrap;
   border-width: 0;
 }
@@ -437,13 +435,13 @@ footer p {
 }
 
 @media (max-width: 750px) {
-body{
-  overflow-x: hidden;
-  width: 100vw;
-}
-#home{
-  height: 100vh;
-}
+  body {
+    overflow-x: hidden;
+    width: 100vw;
+  }
+  #home {
+    height: 100vh;
+  }
   .menu-mobile {
     display: none;
   }
@@ -509,7 +507,6 @@ body{
     background-color: #f9d004;
     border-radius: 8px;
     margin-right: -300px;
-    
   }
   nav ul li {
     border-top: 1px solid #000000;
@@ -517,7 +514,6 @@ body{
     padding-top: 15px;
     font-weight: 700;
     text-shadow: 2px 2px #000000;
-    
   }
 
   nav .menu-fake:checked ~ .menu-mobile {
@@ -538,11 +534,4 @@ body{
   h1.animacao {
     font-size: 100px;
   }
-
-   
-
-
-
-
-
 }
